@@ -1,0 +1,18 @@
+﻿<Window x:Class="WPFKviz.QuizWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFKviz"
+        mc:Ignorable="d"
+        Title="QuizWindow" Height="450" Width="800" Background="#FFF3F4F6">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" >
+            <TextBlock x:Name="QuestionText" Text="Mit jelent az alábbi szó?" FontSize="24" FontWeight="Bold" TextAlignment="Center" Margin="0 0 0 10"/>
+            <Button x:Name="Answer1" Content="Válasz 1" Width="200" Height="50" Click="Answer_Click" Margin="0 0 0 10"/>
+            <Button x:Name="Answer2" Content="Válasz 2" Width="200" Height="50" Click="Answer_Click" Margin="0 0 0 10"/>
+            <Button x:Name="Answer3" Content="Válasz 3" Width="200" Height="50" Click="Answer_Click" Margin="0 0 0 10"/>
+            <Button x:Name="Answer4" Content="Válasz 4" Width="200" Height="50" Click="Answer_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
